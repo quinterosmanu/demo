@@ -1,0 +1,5 @@
+<ion-list *ngFor='let user of users'>
+  <ion-list-header>{{user.firstName}} {{user.lastName}}</ion-list-header>
+  <button ion-item (click)="close()">Perfil</button>
+  <button ion-item (click)="close()">Cerrar Sesión</button>
+</ion-list>

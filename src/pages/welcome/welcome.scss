@@ -1,0 +1,17 @@
+page-welcome {
+    .larger {
+        font-size: larger;
+    }
+    .fab-md {
+        box-shadow: unset;
+        background-color: $primary-color;
+    }
+    
+    .fab {
+        width: 64px;
+        height: 64px;
+    }
+    .fab ion-icon{
+        font-size: 4em;
+    }
+}
